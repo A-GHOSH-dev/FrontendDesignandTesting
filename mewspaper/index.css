@@ -1,0 +1,157 @@
+
+body{
+  overflow-x: hidden;
+}
+
+  .column1 {
+    float: left;
+    width: 23%;
+    padding: 15px;
+    border-right:solid;
+    
+    
+    align-items: center;
+    text-align: center;
+    
+
+  }
+  .column2 {
+    float: left;
+    width: 54%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column3 {
+    float: left;
+    width: 23%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+  
+  .column11 {
+    float: left;
+    width: 33.33%;
+    
+      
+    height: 700px; /* Should be removed. Only for demonstration */
+    
+    
+    align-items: center;
+    text-align: center;
+    
+
+  }
+  .column21 {
+    float: left;
+    width: 33.33%;
+    
+    height: 700px; /* Should be removed. Only for demonstration */
+  }
+  .column31 {
+    float: left;
+    width: 33.33%;
+   
+    height: 700px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: left; }
+.item5 { grid-area: footer; }
+.item6 { grid-area: right; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu left footer footer footer right';
+  grid-gap: 10px;
+  
+  padding: 4px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+/*
+
+.item11 { grid-area: header; }
+.item22 { grid-area: left; }
+.item33 { grid-area: main; }
+.item44 { grid-area: right; }
+.item55 { grid-area: heady; }
+.item66 { grid-area: new; }
+.item77 { grid-area: task; }
+.item88 { grid-area: for; }
+.item99 { grid-area: me; }
+
+
+.grid-containerik {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'left main right'
+    'heady heady new'
+    'task for me';
+  grid-gap: 10px;
+  
+  padding: 10px;
+}
+
+.grid-containerik > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+
+
+
+*/
+
+.columnzz {
+  float: left;
+  width: 25%;
+  
+  height: 30px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowzz:after {
+  content: "";
+  display: table;
+  clear: both;
+}

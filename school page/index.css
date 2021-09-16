@@ -1,0 +1,162 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.bg-imgy {
+  /* The image used */
+  background-image: url("images/1.png");
+
+  height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.containery {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnavy {
+  overflow-x: hidden;
+  background-color: rgba(43, 78, 45, 0.445);
+  
+  
+}
+
+/* Navbar links */
+.topnavy a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnavy a:hover {
+  background-color: rgb(6, 95, 21);
+  border-radius: 6px;
+  color: rgb(255, 251, 251);
+}
+
+
+
+
+
+
+
+/* Social media icons*/
+.fa {
+    padding: 6px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #5fdd39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #c211aa;
+    color: white;
+  }
+
+
+
+
+  #firstrow {
+        width: 250px;
+        height: 400px;
+        
+        transition: width 1s, height 2s;
+      }
+      
+      #firstrow:hover {
+        width: 255px;
+        height:410px;
+      }
+
+  /*activities*/
+  /* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 250px; /* Should be removed. Only for demonstration */
+    transition: width 1s, height 2s;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column:hover{
+      padding: 0px;
+      
+      
+  }
+
+
+  .buttony {
+    background-color: #12490b; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    width: 25%;
+    font-weight: bolder;
+    border-radius: 8px;
+  }
+  
+  .button2 {background-color: #12490b;} /* Blue */
+  .button3 {background-color: #12490b;} /* Red */ 
+  .button4 {background-color: #12490b; color: black;} /* Gray */ 
+  .button5 {background-color: #12490b;} /* Black */

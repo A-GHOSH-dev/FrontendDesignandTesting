@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>PAT Registration</title>
+</head>
+<body>
+    <h1>PAT Registration</h1>
+        
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+
+          <label for="reg">Reg No.:</label>
+          <input type="text" id="reg" name="reg">
+
+          <br><br> 
+
+          <label for="year">Year of Stuying?:</label>
+          <select id="year" name="year">
+            
+              <option value="1">1</option>
+              <option value="2">2</option>          
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+           
+          </select>
+          <br><br>
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password">
+
+          <label for="number">Phone Number:</label>
+          <input type="tel" id="phone" name="phone">
+
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address">
+
+          <label for="dob">DOB:</label>
+          <input type="date" id="dob" name="dob">
+          
+          <label>Gender:</label>
+          <input type="radio" id="male" value="male" name="male"><label for="gendermale" class="light">MALE</label><br>
+          <input type="radio" id="female" value="female" name="female"><label for="genderfemale" class="light">FEMALE</label><br>
+          <input type="radio" id="other" value="other" name="other"><label for="genderother" class="light">OTHER</label>
+        </fieldset>
+       
+        
+
+
+
+
+
+
+
+
+        <fieldset>
+          <legend><span class="number">2</span>Your profile</legend>
+          <label for="bio">Biography:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+
+          <label for="secmarks">Secondary Marks:</label>
+          <input type="text" id="secmarks" name="secmarks"></input>
+
+          <label for="highsecmarks">Higher Secondary Marks:</label>
+          <input type="text" id="highsecmarks" name="highsecmarks"></input>
+       
+
+            <label>Skills:</label>
+            <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Web Designing</label><br>
+              <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">HTML5</label><br>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">CSS3</label><br>
+            
+            <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Js</label><br>
+              <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">JQuery</label><br>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Bootstrap</label><br>
+
+
+            <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Django</label><br>
+              <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Arduino IoT</label><br>
+            <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">UI/UX</label>
+
+
+           
+            
+            
+            
+            
+            
+            <br><br><br><br>
+
+        <label for="job">Job Role You are looking for:</label>
+        <select id="job" name="user_job">
+          <optgroup label="Web">
+            <option value="frontend_developer">Front-End Developer</option>
+            <option value="php_developor">Backend Developer</option>          
+            <option value="web_designer">Web Designer</option>
+            <option value="WordPress_developer">Full Stack Developer</option>
+          </optgroup>
+          <optgroup label="App">
+            <option value="Android_developer">Androild Developer</option>
+            <option value="iOS_developer">iOS Developer</option>
+            <option value="mobile_designer">Mobile Designer</option>
+          </optgroup>
+          <optgroup label="Electronics">
+            <option value="Iot">Internet of things</option>
+            <option value="embedded">Embedded Systems</option>
+          </optgroup>
+          <optgroup label="Other">
+            
+            <option value="python_developer">Python Developer</option>
+            <option value="rails_developer"> Embedded Systems</option>
+          </optgroup>
+        </select>
+        <br><br>
+        <label for="myfile">Upload Your Resume:</label>
+        <input type="file" id="myfile" name="myfile">
+<br><br><br>
+
+        <label for="extra">Extracurricular Activities:</label>
+        <textarea id="extra" name="extra"></textarea>
+
+        
+        </fieldset>
+
+
+        <fieldset>
+            <legend><span class="number">3</span>Job Preference:</legend>
+            
+  
+              <label>Companies you are prefering:</label>
+              <input type="checkbox" id="m" value="m" name="m"><label class="light" for="m">Microsoft</label><br>
+                <input type="checkbox" id="g" value="g" name="g"><label class="light" for="g">Google</label><br>
+              <input type="checkbox" id="a" value="a" name="a"><label class="light" for="a">Adobe</label><br>
+              
+              <input type="checkbox" id="s" value="s" name="s"><label class="light" for="s">Samsung</label><br>
+                <input type="checkbox" id="t" value="t" name="t"><label class="light" for="t">Tesla</label><br>
+              <input type="checkbox" id="d" value="d" name="d"><label class="light" for="d">Dell</label><br>
+  
+  
+              
+              
+              
+              <br><br>
+  
+              <label for="salary">Salary Expectations:</label>
+              <input type="text" id="sal" name="sal">
+  
+  
+         
+          
+          </fieldset>
+  
+  
+        
+
+        <button type="submit">Register</button>
+      </form>
+</body>
+</html>
